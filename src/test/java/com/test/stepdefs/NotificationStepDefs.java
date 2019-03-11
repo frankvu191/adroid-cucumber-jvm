@@ -3,9 +3,6 @@ package com.test.stepdefs;
 import cucumber.api.java.en.Then;
 import org.junit.Assert;
 
-/**
- * Created by priyankp.shah on 9/17/15.
- */
 public class NotificationStepDefs {
 
 

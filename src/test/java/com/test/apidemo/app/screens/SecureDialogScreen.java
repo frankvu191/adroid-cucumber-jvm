@@ -9,9 +9,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
-/**
- * Created by priyankp.shah on 15/9/15.
- */
 @Component
 @Scope("cucumber-glue")
 public class SecureDialogScreen extends AbstractScreen {

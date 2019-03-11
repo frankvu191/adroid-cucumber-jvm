@@ -17,21 +17,23 @@ import java.io.File;
         glue = "com.test.stepdefs")
 public class RunCukesTest {
 
-    private static AppiumDriverLocalService service;
+    //private static AppiumDriverLocalService service;
 
     @BeforeClass
     public static void startAppium() {
-        String osName = System.getProperty("os.name").toLowerCase();
+        /*String osName = System.getProperty("os.name").toLowerCase();
 
         String nodePath = null;
         String appiumPath = null;
 
         if (osName.contains("mac")) {
-//            mac path
+            System.out.println(osName);
+
+            mac path
             nodePath = "/usr/local/bin/node";
             appiumPath = "/usr/local/lib/node_modules/appium/build/lib/main.js";
         } else if (osName.contains("linux")) {
-//      linux path
+            linux path
             nodePath = System.getenv("HOME") + "/.linuxbrew/bin/node";
             appiumPath = System.getenv("HOME") + "/.linuxbrew/lib/node_modules/appium/build/lib/main.js";
         }
@@ -39,11 +41,11 @@ public class RunCukesTest {
                 .usingDriverExecutable(new File(nodePath))
                 .usingPort(4723)
                 .withAppiumJS(new File(appiumPath)));
-        service.start();
+        service.start();*/
     }
 
     @AfterClass
     public static void stopAppium() {
-        service.stop();
+        //service.stop();
     }
 }

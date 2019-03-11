@@ -9,9 +9,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
-/**
- * Created by priyankp.shah on 9/17/15.
- */
 @Component
 @Scope("cucumber-glue")
 public class IncomingMessageNotificationScreen extends AbstractScreen {
